@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <style>
+        body{
+            margin: 0;
+        }
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 0px 1rem;
+      }
+
+      .nav-innerDiv {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+      }
+
+      .nav-name{
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+      
+      .nav-span{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: crimson;
+      }
+
+      .nav-innerDiv > a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 0.25rem 1rem;
+      }
+
+      .nav-innerDiv > a:hover{
+        text-decoration: none;
+        cursor: pointer;
+        color: white;
+        background-color: crimson;
+        border-radius: 15px;
+      }
+
+      /* HOME  */
+
+      .home{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 2.5rem;
+      }
+
+      .homeImg{
+        border-radius: 50%;
+        width: 400px;
+        border: 2px solid black;
+      }
+
+      .home-h3 > h3{
+        font-size: 2.5rem;
+        padding: 0;
+        margin: 7px 0px;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <!-- NAVBAR  -->
+    <div class="navbar">
+      <a href="index.html" style="text-decoration: none; color: black;">
+
+      <p class="nav-name">SIDDIK<span class="nav-span">KHAN</span></p>
+      </a>
+      <div class="nav-innerDiv">
+        <a href="./about.html">About</a>
+          <a href="./skills.html">Skills</a>
+      </div>
+    </div>
+
+    <!-- HOME -->
+    <div class="home">
+        <div class="home-h3">
+            <h3>Hello, my name is</h3>
+            <h3>Siddikkhan Pathan</h3>
+            <h3>I'm a <span style="color: crimson;">Full Stack Developer</span></h3>
+        </div>
+        <img class="homeImg" src="https://siddikgitt.github.io/static/media/logo.2e8a24a949d7c76a3d7b.jpg" alt="Profile">
+
+    </div>
+  </body>
+</html>
